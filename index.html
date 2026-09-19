@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fahad Riaz — Frontend Developer</title>
+  <meta name="description" content="Portfolio of Fahad Riaz, Frontend Developer. Bold interfaces, clean code, and delightful user experiences." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="#home" class="logo">FR</a>
+    <div class="nav-links">
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Hero -->
+  <header id="home" class="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="eyebrow">Hello, I'm</p>
+      <h1>Fahad <span class="accent">Riaz</span></h1>
+      <p class="role">Frontend Developer</p>
+      <p class="tagline">
+        I craft bold, colorful interfaces that feel fast, fun, and human.
+        Turning ideas into pixel-perfect experiences with React, modern CSS, and a bit of magic.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+      <div class="tech-pills">
+        <span>React</span>
+        <span>TypeScript</span>
+        <span>Next.js</span>
+        <span>Tailwind</span>
+        <span>Framer Motion</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <div class="section-header">
+      <h2>Selected <span class="accent">Work</span></h2>
+      <p>A few projects that showcase clean code, bold design, and attention to detail.</p>
+    </div>
+
+    <div class="project-grid">
+      <!-- Project 1 -->
+      <article class="project-card">
+        <div class="project-visual" style="--card-color: #ff6b6b;">
+          <div class="project-number">01</div>
+          <div class="project-icon">🛒</div>
+        </div>
+        <div class="project-body">
+          <h3>ShopFlow Dashboard</h3>
+          <p>A vibrant e-commerce admin panel with real-time analytics, order management, and beautiful data visualizations.</p>
+          <div class="tags">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>Chart.js</span>
+            <span>Tailwind</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link">Live Demo →</a>
+            <a href="#" class="link">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project-card">
+        <div class="project-visual" style="--card-color: #4ecdc4;">
+          <div class="project-number">02</div>
+          <div class="project-icon">☁️</div>
+        </div>
+        <div class="project-body">
+          <h3>SkyCast Weather</h3>
+          <p>A playful weather app with smooth animations, location-based forecasts, and a bold color system that changes with the sky.</p>
+          <div class="tags">
+            <span>Next.js</span>
+            <span>OpenWeather API</span>
+            <span>Framer Motion</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link">Live Demo →</a>
+            <a href="#" class="link">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project-card">
+        <div class="project-visual" style="--card-color: #ffe66d;">
+          <div class="project-number">03</div>
+          <div class="project-icon">✅</div>
+        </div>
+        <div class="project-body">
+          <h3>Pulse Task Manager</h3>
+          <p>Kanban-style productivity tool with drag-and-drop, dark/light themes, and a joyful micro-interaction library.</p>
+          <div class="tags">
+            <span>React</span>
+            <span>DnD Kit</span>
+            <span>Zustand</span>
+            <span>CSS Modules</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link">Live Demo →</a>
+            <a href="#" class="link">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 4 -->
+      <article class="project-card">
+        <div class="project-visual" style="--card-color: #a78bfa;">
+          <div class="project-number">04</div>
+          <div class="project-icon">🎨</div>
+        </div>
+        <div class="project-body">
+          <h3>ColorCraft Studio</h3>
+          <p>An interactive color palette generator and accessibility checker built for designers who love bold systems.</p>
+          <div class="tags">
+            <span>Vanilla JS</span>
+            <span>Canvas API</span>
+            <span>CSS Variables</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link">Live Demo →</a>
+            <a href="#" class="link">GitHub</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="contact-inner">
+      <div class="contact-text">
+        <h2>Let's build something <span class="accent">bold</span></h2>
+        <p>
+          Have a project in mind or just want to say hi?  
+          I'm always open to new opportunities, collaborations, and interesting conversations.
+        </p>
+        <div class="contact-details">
+          <a href="mailto:fahad.riaz@example.com" class="contact-item">
+            <span class="icon">✉️</span>
+            fahad.riaz@example.com
+          </a>
+          <a href="#" class="contact-item">
+            <span class="icon">📍</span>
+            Available worldwide (Remote)
+          </a>
+        </div>
+        <div class="socials">
+          <a href="#" aria-label="GitHub" class="social">GitHub</a>
+          <a href="#" aria-label="LinkedIn" class="social">LinkedIn</a>
+          <a href="#" aria-label="Twitter" class="social">X / Twitter</a>
+          <a href="#" aria-label="Dribbble" class="social">Dribbble</a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary full-width">Send Message</button>
+        <p class="form-note">This is a demo form — it won't actually send emails yet.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© <span id="year"></span> Fahad Riaz. Built with ❤️ and lots of CSS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
